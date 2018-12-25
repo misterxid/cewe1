@@ -9,14 +9,16 @@ echo                    " [thanks to: I T A              ]"|lolcat
 echo                    " [Note2    : Copyright©MR_XID   ]"|lolcat
 echo                    " [======<>======<>======<>======]"|lolcat
 
-echo -e"---_-------------_---_--------" | lolcat
-echo -e $b "1.  TEMBAK CEWE${endc}";
-echo -e"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" | lolcat
+echo "---_-------------_---_--------" | lolcat
+echo  $b "1.  TEMBAK CEWE${endc}";
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" | lolcat
 echo -e "╭─[PILIH NOMERNYA]"
 read -p "╰─root@./MR_XID=" saf;
 
 # TEMBAK CEWE
+
 case $saf in
+then
 (1)
 echo -e "----------------------"|lolcat
 echo -e $r "1.cara tembak cewe ${endc}";
